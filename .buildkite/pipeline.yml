@@ -1,3 +1,4 @@
 steps:
 - label: ":llama:"
   command: echo hello world from codebuild!
+  parallelism: 5
